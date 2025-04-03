@@ -17,7 +17,7 @@ For Marzneshin subscriptions, it fetches the configuration from url/xray.
 
 Update Options: The app has a built-in feature to reload subscription data from the URL.
 
-Ping All: The "Ping All" option helps test the handshakes of all configurations, sending them to google.com for verification.
+Ping All: The "Ping All" option helps test the handshakes of all configurations, via google.com.
 
 User-Friendly: V2Marz is designed to be simple and intuitive for end-users.
 
@@ -25,7 +25,7 @@ Privacy First: No data collection. No ads.
 
 Marzban Setup:
 Link Setup:
-
+https://github.com/Gozargah/Marzban/tree/master/app/templates/v2ray
 Visit Marzban GitHub Repository to get the required template.
 
 JSON Configuration:
