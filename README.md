@@ -1,32 +1,41 @@
 # V2Marz
 
-V2Marz is a xray-core client for android devices supported Marzban and Marzneshin panel
+V2Marz is an Xray-core client for Android devices, designed to work with the Marzban and Marzneshin panels. This project is an example of V2ray_flutter.
 
-this project is an example of V2ray_flutter
+Features:
+Supported Subscription Links: V2Marz only supports subscription links from Marzban or Marzneshin panels.
 
-the app only support subscription link of Marzban or Marzneshin
+Important: Do not attempt to add Vmess://, Vless://, etc. subscription links.
 
-do not try adding Vmess:// vless:// ets.
+Subscription Handling:
 
-lest call the subscription link = url
-the reads url/info to create the expireation, .... of an account
-if url is for Marzban the reads url/v2ray-json to download full json configs 
-if url is for Marzneshin the reads url/xray to download full json configs 
+The app reads the subscription URL to fetch account details such as expiration and other necessary information.
 
-the app has update option to reaload url data
-the app has ping all option it gives you all configs handshaked to google.com
+For Marzban subscriptions, it fetches the configuration from url/v2ray-json.
 
-the app is easy to use for end user 
+For Marzneshin subscriptions, it fetches the configuration from url/xray.
 
-no data collction no ads 
+Update Options: The app has a built-in feature to reload subscription data from the URL.
 
-Marzban:
-https://github.com/Gozargah/Marzban/tree/master/app/templates/v2ray
-fist read the link 
-then you only need to put default json in the path: var/lib/marzban/templates/v2ray/default.json
-you do not need adding anything else to your .env
-in this json you can add your rules 
-an example json is uploaded you can use it
+Ping All: The "Ping All" option helps test the handshakes of all configurations, sending them to google.com for verification.
+
+User-Friendly: V2Marz is designed to be simple and intuitive for end-users.
+
+Privacy First: No data collection. No ads.
+
+Marzban Setup:
+Link Setup:
+
+Visit Marzban GitHub Repository to get the required template.
+
+JSON Configuration:
+
+After reading the link, place the default JSON file in the following directory:
+/var/lib/marzban/templates/v2ray/default.json
+
+No Extra Configuration Needed:
+
+There is no need to add anything else to your .env file. Simply use the uploaded example JSON for rules customization.
 
 
 
