@@ -1,5 +1,7 @@
 # V2Marz
 
+Xray-core v25.3.6
+
 V2Marz is an Xray-core client for Android devices, designed to work with the Marzban and Marzneshin panels. This project is an example of V2ray_flutter.
 
 Features:
