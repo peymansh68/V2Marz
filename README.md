@@ -23,7 +23,7 @@ no data collction no ads
 Marzban:
 https://github.com/Gozargah/Marzban/tree/master/app/templates/v2ray
 fist read the link 
-then you only need to put default json in the path: var/lib/marzban/subscription/v2ray/default.json
+then you only need to put default json in the path: var/lib/marzban/templates/v2ray/default.json
 you do not need adding anything else to your .env
 in this json you can add your rules 
 an example json is uploaded you can use it
