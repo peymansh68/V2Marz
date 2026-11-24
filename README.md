@@ -1,11 +1,18 @@
 # V2Marz
+download latest version via Telegram for Android and windows
 
-Xray-core v25.3.6
+https://t.me/v2marz/52/715
 
-V2Marz is an Xray-core client for Android devices, designed to work with the Marzban and Marzneshin panels. This project is an example of V2ray_flutter.
+or
+
+https://m2.ironetwo.com
+
+Xray-core v26.11.9
+
+V2Marz is an Xray-core client for Android devices, designed to work with the Marzban (Pasargaurd) and Marzneshin panels. This project is an example of V2ray_flutter.
 
 Features:
-Supported Subscription Links: V2Marz only supports subscription links from Marzban or Marzneshin panels.
+Supported Subscription Links: V2Marz only supports subscription links from Marzban (Pasargourd) or Marzneshin panels.
 
 Important: Do not attempt to add Vmess://, Vless://, etc. subscription links.
 
